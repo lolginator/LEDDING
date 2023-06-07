@@ -1,0 +1,30 @@
+[class = "gototech"]{
+    display: none !important;
+}
+
+[class*="copyrights-pane"] {
+	/* display: none !important; */
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+
+[class*= "ground-pane"]{
+    filter: grayscale(1) sepia(10%)
+}
+
+
+//BALOON 
+
+[class*= "balloon__contacts"]{
+    a{
+        color: black;
+        transition: 0.2s ease-in;
+
+
+        &:hover{
+            color: $accent
+        }
+    }
+}
+
